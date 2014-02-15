@@ -1,0 +1,28 @@
+{
+  "name": "parenthesize",
+  "version": "1.0.0",
+  "description": "wrap a string in parens, brackets, or whatever else you want",
+  "main": "index.js",
+  "devDependencies": {
+    "markdown-code-blocks": "0.0.1"
+  },
+  "scripts": {
+    "test": "markdown-code-blocks -t javascript < README.md | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grncdr/js-parenthesize.git"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "git://github.com/grncdr/js-parenthesize/issues"
+  },
+  "homepage": "https://github.com/grncdr/js-parenthesize",
+  "keywords": [
+    "parenthesis",
+    "brackets",
+    "string-utils"
+  ],
+  "author": "Stephen Sugden <me@stephensugden.com>",
+  "license": "MIT"
+}
